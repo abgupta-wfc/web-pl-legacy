@@ -14,7 +14,6 @@ jQuery(document).ready(function ($) {
         "classes": {
             "initial": "animated",
             "pinned": "slideDown",
-            "unpinned": "slideUp"
         }
     });
 //da slider
