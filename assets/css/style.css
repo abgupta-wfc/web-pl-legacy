@@ -540,6 +540,12 @@ i {
     margin: 0 !important;
 }
 
+.image-animation:hover{
+    /* border: 1px solid red; */
+    transition: .6s;
+    transform: scale(1.05);
+}
+
 input {
     border: none !important;
     box-shadow: none !important;
