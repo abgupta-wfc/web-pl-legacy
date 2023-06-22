@@ -11,6 +11,6 @@ pipelines:
         - step:
            script:
              - git remote add sync git@github.com:nerdpin/webpl.git
-             - git checkout dev
+             - git checkout master
              - git pull    
              - git push sync dev
