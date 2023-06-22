@@ -8,6 +8,10 @@ Licence: Creative Commons Attribution 3.0** - http://creativecommons.org/license
 */
 
 /*General*/
+*{
+    scroll-behavior: smooth;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: "Open sans", Helvetica, Arial;
 }
@@ -562,7 +566,7 @@ input {
 }
 
 .row {
-    padding-top: 50px;
+    padding-top: 80px;
 }
 
 /* header {
