@@ -573,6 +573,18 @@ input {
 .services-section {
     margin-bottom: 150px;
 }
+
+/* index About section Additional css  */
+
+
+.maincontent img{
+
+    margin-top: 130px;
+    
+
+}
+
+
 /**
   MEDIA QUERIES
 */

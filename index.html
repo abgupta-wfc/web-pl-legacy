@@ -42,7 +42,7 @@
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav pull-right">
 					<li class="active"><a href="#">Home</a></li>
-					<li><a href="about.html">About</a></li>
+					<li><a class="nav-link scrollto" href="#about">About</a></li>
 					<li><a href="services.html">Services</a></li>
 					<!-- <li><a href="portfolio.html">Portfolio</a> |</li> -->
 					<li><a href="contact.html">Contact</a></li>
@@ -51,7 +51,6 @@
 			<!--/.nav-collapse -->
 		</div>
 	</div>
-	<div id="scroll-progress"></div>
 	<!-- /.navbar -->
 
 	<!-- Header -->
@@ -99,7 +98,7 @@
 		<br>
 		<div class="row">
 			<div class="col-sm-6">
-				<img class="image-animation" src="assets/images/custom/upvote.svg" />
+				<img src="assets/images/custom/upvote.svg" />
 			</div>
 			<div class="col-sm-6">
 				<p class="text-muted text-start" style="font-size: 18px;margin: 0px; text-align: justify;">
@@ -140,7 +139,7 @@
 			<div class="row services">
 				<div class="col-md-4 col-sm-6 highlight">
 					<div class="h-caption">
-						<h4><img class="image-animation" src="assets/images/custom/upload.svg" />Contract Staffing</h4>
+						<h4><img src="assets/images/custom/upload.svg" />Contract Staffing</h4>
 					</div>
 					<div class="h-body text-center">
 						<p>Contract, Contract to hire, and Full time staffing services. To keep up to the ever-changing and
@@ -153,7 +152,7 @@
 				</div>
 				<div class="col-md-4 col-sm-6 highlight">
 					<div class="h-caption">
-						<h4><img class="image-animation" src="assets/images/custom/stats.svg" />Contract to hire</h4>
+						<h4><img src="assets/images/custom/stats.svg" />Contract to hire</h4>
 					</div>
 					<div class="h-body text-center">
 						<p>On account of Pyloops high confidence level to match up to clients and candidates workforce expectations, we
@@ -167,7 +166,7 @@
 				</div>
 				<div class="col-md-4 col-sm-6 highlight">
 					<div class="h-caption">
-						<h4><img class="image-animation" src="assets/images/custom/2021.svg" />Full time staffing</h4>
+						<h4><img src="assets/images/custom/2021.svg" />Full time staffing</h4>
 					</div>
 					<div class="h-body text-center">
 						<p>Pyloops does focus on permanent placement services by providing Career Placement Services, which have proved to
@@ -263,19 +262,42 @@
 			</div>
 		</div>
 	</div>
-	<div class="container">
-		<div class="jumbotron top-space">
-			<p>We celebrate and embrace that which makes each of us unique. We honor differences among race, gender, age, national
-			origin, ethnicity, disability, religion, culture, socio-economic status, sexual orientation, and any other attributes
-			that truly represent an individual or group. Individual lifestyles, work/life balance, learning, and interpersonal
-			styles, life experiences, talents, and creative passions are all factors that contribute to a person’s culture or
-			identity. Pyloops stands by the notion that by including thoughts and opinions from all perspectives, we remove
-			barriers to the success of our people, our organization, and the services that we provide to our customers.</p>
-			<p class="text-right"><a class="btn btn-primary btn-large" style="background: #DF4E20;color: white;" href="about.html">Learn
-					more..</a></p>
+	
+			<!-- About section -->
+	<section id="about">
+		
+		<div class="container">
+	
+	<article class="col-sm-6 maincontent">
+		<header class="page-header">
+			<h1 class="page-title">About us</h1>
+		</header>
+		<h3>Our Company</h3>
+		<p>Pyloops is a premier provider of employment and staffing solutions to customers across the United States. We provide long-term,
+		short- term, temporary-to-permanent, placement staffing and enhanced staffing services. We are a global IT solution
+		provider of end-to-end, innovative, cutting edge software solutions. Pyloops is one of the preeminent hi-tech IT and
+		consulting organization. We brings you the best practices, technologies and business models that can help you stay ahead
+		in a changing economy and marketplace.</p>
+		<h3>Company Goals</h3>
+		<p>Our service is comparable to the best in the industry and reputation reflects the high standards that we demand of
+		ourselves. Our IT and software solutions effectively respond to rapidly changing global IT needs. We acts as a trusted
+		advisor to our clients, providing a full range of IT and management consulting services, including IT strategic
+		planning, staffing, business process engineering and systems architecture.</p>
+		<h3>Diversity</h3>
+		<p>Our expertise is diversified to all phases of software development. From Business Analyst to Systems Engineers to Dev
+		Ops, Tex Labs has the technical knowledge to find ideal candidate that would fit business culture and objectives for
+		your company’s IT needs using most recent innovations and patterns.</p>
+		
+	</article>
+	<div class="col-sm-6 maincontent">
+		<img src="assets/images/custom/about.svg"/>
+	</div>
+	
 		</div>
-
-	</div> <!-- /container -->
+	</section> 
+	<!-- /About section  -->
+	
+	 <!-- /container -->
 	<!-- <div class="container">
 		<div class="row">
 			<div class='col-md-offset-2 col-md-8 text-center'>
@@ -448,7 +470,7 @@
 						<div class="panel-body">
 							<p class="simplenav">
 								<a href="index.html">Home</a> |
-								<a href="about.html">About</a> |
+								<a class="nav-link scrollto" href="#about">About</a> |
 								<a href="services.html">Services</a> |
 								<!-- <a href="portfolio.html">Portfolio</a> | --> 
 								<a href="contact.html">Contact</a>
@@ -486,14 +508,3 @@
 </body>
 
 </html>
-<script>
-	// When the user scrolls the page, execute myFunction 
-	window.onscroll = function() {myFunction()};
-	
-	function myFunction() {
-	  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-	  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-	  var scrolled = (winScroll / height) * 100;
-	  document.getElementById("scroll-progress").style.width = scrolled + "%";
-	}
-</script>
