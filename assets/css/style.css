@@ -8,6 +8,10 @@ Licence: Creative Commons Attribution 3.0** - http://creativecommons.org/license
 */
 
 /*General*/
+*{
+    scroll-behavior: smooth;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: "Open sans", Helvetica, Arial;
 }
@@ -107,6 +111,10 @@ label {
     padding: 0px;
 }
 
+.panel-body > p {   
+    font-size: 14px;
+}
+
 .btn-action, .btn-primary {
     color: #FFEFD7;
     background-image: -webkit-linear-gradient(top, #0ecfec 0%, #09bed9 100%);
@@ -153,8 +161,6 @@ label {
     margin-bottom: 20px;
 }
 
-.h-body {
-}
 
 .jumbotron {
     background-color: #E0E0E0;
@@ -256,7 +262,7 @@ img.pull-left {
 }
 
 .footer1 .panel-title {
-    font-size: 17px;
+    font-size: 30px;
     font-weight: bold;
     color: #ccc;
     margin: 0 0 20px;
@@ -399,8 +405,6 @@ list-style: none;
     margin-bottom: 30px;
 }
 
-#portfolio {
-}
 
     #portfolio img {
         width: 100%;
@@ -546,6 +550,18 @@ i {
     transform: scale(1.05);
 }
 
+li > a {
+    font-size: 16px;
+}
+
+li > a:hover {
+    font-size: 18px;
+    border-bottom: 2px solid #DF4E20;
+    padding: 8px 15px !important;
+    border-radius: 13px;
+    transition: 0.6s;
+}
+
 input {
     border: none !important;
     box-shadow: none !important;
@@ -554,7 +570,7 @@ input {
 }
 
 .row {
-    padding-top: 50px;
+    padding-top: 80px;
 }
 
 /* header {
