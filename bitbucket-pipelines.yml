@@ -13,4 +13,4 @@ pipelines:
              - git remote add sync git@github.com:nerdpin/webpl.git
              - git checkout master
              - git pull    
-             - git push sync dev
+             - git push sync master
