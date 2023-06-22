@@ -43,7 +43,7 @@
 				<ul class="nav navbar-nav pull-right">
 					<li><a href="#">Home</a></li>
 					<li><a href="#services">Services</a></li>
-					<li><a href="about.html">About</a></li>
+					<li><a class="nav-link scrollto" href="#about">About</a></li>
 					<!-- <li><a href="portfolio.html">Portfolio</a> |</li> -->
 					<li><a class="nav-link scrollto" href="#contact">Contact</a></li>
 				</ul>
@@ -51,7 +51,6 @@
 			<!--/.nav-collapse -->
 		</div>
 	</div>
-	<div id="scroll-progress"></div>
 	<!-- /.navbar -->
 
 	<!-- Header -->
@@ -99,7 +98,7 @@
 		<br>
 		<div class="row">
 			<div class="col-sm-6">
-				<img class="image-animation" src="assets/images/custom/upvote.svg" />
+				<img src="assets/images/custom/upvote.svg" />
 			</div>
 			<div class="col-sm-6">
 				<p class="text-muted text-start" style="font-size: 18px;margin: 0px; text-align: justify;">
@@ -237,7 +236,7 @@
 			<div class="row services">
 				<div class="col-md-4 col-sm-6 highlight text-justify">
 					<div class="h-caption">
-						<h4><img class="image-animation" src="assets/images/custom/upload.svg" />Contract Staffing</h4>
+						<h4><img src="assets/images/custom/upload.svg" />Contract Staffing</h4>
 					</div>
 					<div class="h-body">
 						<p>Contract, Contract to hire, and Full time staffing services. To keep up to the ever-changing and
@@ -250,7 +249,7 @@
 				</div>
 				<div class="col-md-4 col-sm-6 highlight text-justify">
 					<div class="h-caption">
-						<h4><img class="image-animation" src="assets/images/custom/stats.svg" />Contract to hire</h4>
+						<h4><img src="assets/images/custom/stats.svg" />Contract to hire</h4>
 					</div>
 					<div class="h-body">
 						<p>On account of Pyloops high confidence level to match up to clients and candidates workforce expectations, we
@@ -264,7 +263,7 @@
 				</div>
 				<div class="col-md-4 col-sm-6 highlight">
 					<div class="h-caption">
-						<h4><img class="image-animation" src="assets/images/custom/2021.svg" />Full time staffing</h4>
+						<h4><img src="assets/images/custom/2021.svg" />Full time staffing</h4>
 					</div>
 					<div class="h-body">
 						<p>Pyloops does focus on permanent placement services by providing Career Placement Services, which have proved to
@@ -360,7 +359,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="container text-justify">
+	<!-- <div class="container">
 		<div class="jumbotron top-space">
 			<p>We celebrate and embrace that which makes each of us unique. We honor differences among race, gender, age, national
 			origin, ethnicity, disability, religion, culture, socio-economic status, sexual orientation, and any other attributes
@@ -372,7 +371,7 @@
 					more..</a></p>
 		</div>
 
-	</div>
+	</div> -->
 	<!-- contact us page in index start -->
 	<section id="contact">
 		<div class="container">
@@ -572,7 +571,7 @@
 						<div class="panel-body">
 							<p class="simplenav">
 								<a href="index.html">Home</a> |
-								<a href="about.html">About</a> |
+								<a class="nav-link scrollto" href="#about">About</a> |
 								<a href="services.html">Services</a> |
 								<!-- <a href="portfolio.html">Portfolio</a> | --> 
 								<a class="nav-link scrollto" href="#contact">Contact</a>
@@ -611,14 +610,3 @@
 </body>
 
 </html>
-<script>
-	// When the user scrolls the page, execute myFunction 
-	window.onscroll = function() {myFunction()};
-	
-	function myFunction() {
-	  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-	  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-	  var scrolled = (winScroll / height) * 100;
-	  document.getElementById("scroll-progress").style.width = scrolled + "%";
-	}
-</script>
