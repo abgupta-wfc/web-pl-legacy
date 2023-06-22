@@ -10,7 +10,7 @@ pipelines:
       master:
         - step:
            script:
-             - git remote add sync https://github.com/abgupta-wfc/web-pl.git
+             - git remote add sync git@github.com:abgupta-wfc/web-pl.git
              - git checkout master
              - git pull    
              - git push sync master
