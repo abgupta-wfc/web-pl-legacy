@@ -107,6 +107,10 @@ label {
     padding: 0px;
 }
 
+.panel-body > p {   
+    font-size: 14px;
+}
+
 .btn-action, .btn-primary {
     color: #FFEFD7;
     background-image: -webkit-linear-gradient(top, #0ecfec 0%, #09bed9 100%);
@@ -256,7 +260,7 @@ img.pull-left {
 }
 
 .footer1 .panel-title {
-    font-size: 17px;
+    font-size: 30px;
     font-weight: bold;
     color: #ccc;
     margin: 0 0 20px;
